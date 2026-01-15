@@ -5,13 +5,13 @@
     .minimum_zig_version = "0.15.2",
 
     .dependencies = .{
-        .sdl = .{
-            .url = "git+https://github.com/castholm/SDL.git#f103a1439670c35be756d4491b296a6e3ccffaed",
-            .hash = "sdl-0.3.2+3.2.26-7uIn9BNgfwHaS0qXiSIBLkJf8Jfrh5P6gSWdQvtnvxEp",
-        },
         .freetype = .{
             .url = "git+https://github.com/LaBatata101/freetype.git#3eb0e4a591bae073f63a1ba6058df313e03e341f",
             .hash = "freetype-0.0.0-cLfC_1tJcwCa_ASL6vZ0M6TTko4LMHy_eq8TNCpHx8x5",
+        },
+        .sdl = .{
+            .url = "git+https://github.com/castholm/SDL.git#887fa805e40d5c7bb3955ae69b89ed566c6a0471",
+            .hash = "sdl-0.4.0+3.4.0-SDL--rq2owEZsySGuHCuVJ9naEvH3i3e_pyUIjziBtJ-",
         },
     },
 
