@@ -38,6 +38,7 @@ SDL3_ttf_0.0.0 {
     TTF_GetFontSize;
     TTF_GetFontStyle;
     TTF_GetFontStyleName;
+    TTF_GetFontWeight;
     TTF_GetFontWrapAlignment;
     TTF_GetFreeTypeVersion;
     TTF_GetGlyphImage;
@@ -116,5 +117,7 @@ SDL3_ttf_0.0.0 {
     TTF_UpdateText;
     TTF_Version;
     TTF_WasInit;
+    TTF_SetFontCharSpacing;
+    TTF_GetFontCharSpacing;
   local: *;
 };
